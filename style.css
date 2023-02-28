@@ -1,0 +1,506 @@
+.navbar{
+    background-color: #F3F3F3;
+    /* background-color: black; */
+     /* display:flex; */
+     /* width: 100%; */
+    position: absolute;
+    left: 0%;
+    top: -26px;
+}
+.stick{
+    /* background-color: black; */
+    width: 100%;
+    height: 140px;
+    position: sticky;
+    left: 0%;
+    top: 0px;
+    z-index: 1;
+}
+div.navbar2{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.img1{
+    width: 60%;
+    height: 30px;
+     position: relative;
+    left: 90%; 
+    
+}
+.img2{
+    position: relative;
+    left: 150%; 
+    width: 50%;
+    height: 25px;
+    border-radius: 50%;
+   
+}
+.p1{
+    position: relative;
+    left: 205%;
+    top: -45%;
+    color: black;
+}
+.link1{
+    /* position: relative;
+    left: -39%; */
+    text-decoration: none;
+}
+
+.img3{
+    position: relative;
+    left: 200%; 
+    width: 50%;
+    height: 25px;
+    border-radius: 50%;
+}
+.p2{
+    position: relative;
+    left: 255%;
+    top: -45%; 
+    color: black;
+}
+.link2{
+    /* position: relative;
+    left: -56%; */
+    text-decoration: none;
+}
+.link3{
+    text-decoration: none;
+}
+/* =================================== */
+/* .navbar3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .link3 {
+    display: inline-block;
+  }
+  
+  .img4 {
+    width: 80px;
+    height: auto;
+  }
+  
+  #abc {
+    width: 200px;
+  }
+  
+  #search2 {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  label[for="search2"] {
+    margin: 0;
+    padding: 0;
+  }
+  
+  Optional styles to make the label for the select element look consistent with the label for the search input
+  label[for="abc"] {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+  } */
+/* ====================================================   */
+ div.navbar3{
+    /* background-color: blue; */
+    width: 100%;
+    height: 80px;
+    position: relative;
+    top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    gap: 1%;
+}
+
+.img4{
+    width: 80px;
+    height: auto;
+    position: relative;
+    left: 50%;
+}
+/*
+label[for=abc]{
+    align-self: center;
+    background-color: black;
+    width: 20%;
+    height: 60px;
+    position: relative;
+    left: 7%; 
+    border: 3px solid black;
+    border-radius: 5%;
+}
+*/
+ #abc{
+    
+    width: 20%;
+    height: 60px;
+    border: 3px solid black;
+    border-radius: 5%;
+    position: relative;
+    left: 5%;
+    align-self: center;
+}  
+/* ===================================================== */
+label[for=search2]{
+    background-color: orangered;
+    display: none;
+}
+#search2{
+    /* background-color: black; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT--W18wy6a2ieVL6AoUwTx7OwzuY1-ncqVeA&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 2.8em;
+    background-position-x: right;
+
+    position: relative;
+    left: 5%;
+    align-self: center;
+    width: 50%;
+    height: 60px;
+    border: 3px solid black;
+    border-radius: 3%;
+    font-size: 20px;
+}
+
+.link4{
+    position: relative;
+    /* top:25%;*/
+    left: 5%; 
+    align-self: center;
+    color: black;
+    font-size: 25px;
+}
+/*
+.img5{
+    width:8%;
+    position: relative;
+    left: 22.5%;
+} 
+.img6{
+    width: 10%;
+    height: 20px;
+    position: relative;
+    top: 36%;
+    left: 6%;
+}*/
+.span1{
+      position: relative;
+      align-self: center;
+      left: 7%;
+      font-weight: bold;
+      font-size: 30px;
+} 
+
+.navbar4{
+    /* background-color: brown; */
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 1%;
+    margin-top: -1.6%;
+   
+    /* z-index: -1; */
+} 
+div.top{
+    /* background-color: black; */
+    margin-left: 2%;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+div.one1{
+    font-weight: bolder;
+    position: relative;
+    left: 2%;
+}
+select#abc2{
+  border-color: rgba(0, 0, 0, 0);
+}
+a.link5{
+    color: black;
+    text-decoration: none;
+}
+hr{
+    position: relative;
+    z-index: -1;
+}
+div.top2{
+    /* background-color: black; */
+    width: 98%;
+    margin-left: 2%;
+}
+.img7{
+   margin-left: 2%;
+    width: 94%;
+}
+.heading1{
+    /* background-color: black; */
+    margin-top: 1%;
+    margin-left: 3%;
+    width: 50%;
+    
+}
+
+.cards{
+    /* background-color: brown; */
+    width: 100%;
+    height: 2200px;
+    position: relative;
+    z-index: -1;
+    
+}
+/* .card{
+   
+} */
+.Cbody{
+    height: 205px;
+    /* overflow-y: scroll;
+    scrollbar-width: thin; */
+
+}
+.CC{
+    /* background-color: black; */
+    width: 90%;
+    margin-left: 4.5%;
+    padding: 1%;
+    
+}
+.img8{
+    height: 205px;
+
+}
+.navbar5{
+    display: none;
+}
+.search3{
+    display: none;
+}
+small{
+    position: relative;
+    bottom: auto;
+}
+
+.load{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+}
+.bttn1{
+    height: 45px;
+    border: 2px solid black;
+    color: black;
+    font-weight: bolder;
+}
+
+.addd{
+   
+    /* background-color: black; */
+    width: 100%;
+    height: 200px;
+}
+.img9{
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+}
+ 
+  
+
+
+
+/* #check {display: none;} */
+@media screen and (min-width:240px) and (max-width:740px)
+{ 
+    /* .navbar{
+        background-color: #F3F3F3;
+         display:flex; 
+        position: absolute;
+        display: none;
+    } */
+    div.stick{
+        display: none;
+    }
+    /* .navbar5{
+       background-color: black;
+    } */
+    .navbar4{
+        display: none;
+    }
+   
+
+    #search3{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT--W18wy6a2ieVL6AoUwTx7OwzuY1-ncqVeA&usqp=CAU");
+        background-repeat: no-repeat;
+        background-size: 3.50em;
+        background-position-x: left;
+        display: grid;
+        position: relative;
+        left: 0%;
+        top: 7%;
+        width: 100vw;
+        height: 60px;
+        border: 3px solid black;
+        border-radius: 3%;
+        padding-left: 20%;
+        /* font-size: 20px; */
+    }
+
+
+
+
+
+
+
+    div.navbar5{
+        position: relative;
+        top: 0px;
+        width: 100%;
+        height: 50px;
+        /* background-color: brown; */
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .img1{
+        width: 50%;
+        height: 25px;
+         position: relative;
+        left: 100%; 
+        
+    }
+    .img2{
+        width: 50%;
+        height: 25px;
+        border-radius: 50%;
+        position: relative;
+        left: 100%;
+    }
+    .p1{
+        position: relative; 
+        left: 155%;
+        top: -45%; 
+        color: black;
+    }
+    .link1{
+        /* position: relative;
+        left: -39%; */
+        text-decoration: none;
+    }
+    
+    .img3{
+        position: relative;
+        left: 165%;
+        width: 50%;
+        height: 25px;
+        border-radius: 50%;
+    }
+    .p2{
+        position: relative;
+        left: 220%;
+        top: -45%; 
+        color: black;
+    }
+    .link2{
+        /* position: relative;
+        left: -56%; */
+        text-decoration: none;
+    }
+    .link3{
+        text-decoration: none;
+    }
+    
+
+}
+
+@media screen and (min-width:750px) and (max-width:1300px)
+ {
+    .Cbody{
+        height: 205px;
+        overflow-y: scroll;
+    }
+    .CC{
+        /* background-color: black; */
+        width: 90%;
+        margin-left: 4.5%;
+        padding: 1%;
+    }
+    .img8{
+        height: 205px;
+    }
+    .navbar5{
+        display: none;
+    }
+    #search3{
+        display: none;
+    }
+    small{
+        position: relative;
+        bottom: auto;
+    }
+}
+
+
+
+
+
+
+/* #check:checked ~ .menu {right: 10;} */
+/* .search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .search-container input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 70%;
+    background-color: #f1f1f1;
+  }
+  
+  .search-container button {
+    border-radius: 0 5px 5px 0;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .search-container button:hover {
+    background-color: #3e8e41;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .search-container input[type=text] {
+      width: 50%;
+    }
+  } */
+  
